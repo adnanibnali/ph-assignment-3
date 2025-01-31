@@ -11,6 +11,11 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
       rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap"
+      rel="stylesheet" />
     <!-- ---------------- -->
     <script
       src="https://kit.fontawesome.com/97a1d3b6c3.js"
@@ -40,14 +45,20 @@
         font-weight: 400;
         font-style: normal;
       }
+      .font-adlam {
+        font-family: "ADLaM Display", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
     </style>
     <!-- THEME ENDS HERE -->
   </head>
   <body>
     <!-- Navbar Section Starts Here -->
-    <nav class="navbar primary-bg font-sora h-20 sm:h-24">
+    <nav
+      class="navbar primary-bg font-sora h-20 sm:h-24 border-b border-gray-500 md:border-none px-5 xl:px-0">
       <div
-        class="navContainer max-w-[82rem] mx-4 md:mx-auto pt-4 flex justify-between items-center">
+        class="navContainer max-w-[82rem] mx-auto pt-4 flex justify-between items-center">
         <div class="branding flex gap-2 items-center cursor-pointer">
           <img
             src="assets/logo-header.png"
@@ -79,5 +90,27 @@
         <i class="fa-solid fa-bars text-3xl md:hidden"></i>
       </div>
     </nav>
+    <!-- HERO SECTION STARTS HERE -->
+    <section
+      class="hero flex flex-col gap-6 max-w-[82rem] h-[24rem] sm:h-[30rem] md:h-[46rem] mx-auto bg-[url('assets/cat-big.png')] bg-no-repeat bg-contain bg-bottom my-5 md:my-20 px-5 xl:px-0">
+      <h1 class="heroHead font-adlam text-3xl md:text-6xl">
+        Pamper Your Pet,
+        <br />
+        Because They Deserve
+        <br />
+        the Bes
+      </h1>
+      <p
+        class="heroDetails font-sora text-base md:text-xl max-w-[42rem] opacity-50">
+        Discover a world of treats, toys, and essentials handpicked for your
+        furry friends. Shop now and make tails wag with joy!
+      </p>
+      <div>
+        <button
+          class="btnPrimary font-sora px-8 py-3 accent-background rounded-lg">
+          Find a pet
+        </button>
+      </div>
+    </section>
   </body>
 </html>
