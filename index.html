@@ -25,9 +25,13 @@
       :root {
         --accent: #ffdc26;
         --primaryBg: #fff9f4;
+        --primaryCardBg: #f9df8a;
       }
       .accent-background {
         background-color: var(--accent);
+      }
+      .primaryCardBg {
+        background-color: var(--primaryCardBg);
       }
       .accent {
         color: var(--accent);
@@ -110,6 +114,94 @@
           class="btnPrimary font-sora px-8 py-3 accent-background rounded-lg">
           Find a pet
         </button>
+      </div>
+    </section>
+    <!-- Category Section Starts Here -->
+    <section
+      class="category w-fit xl:max-w-[82rem] mx-auto flex flex-col gap-6 md:gap-12 my-14 lg:my-28">
+      <h1 class="categoryHead text-2xl md:text-4xl font-adlam">
+        Browse By Categories
+      </h1>
+      <div
+        class="categoryContainer grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-2 md:gap-6">
+        <!-- this is a category card -->
+        <div
+          class="categoryCard primaryCardBg w-44 md:w-52 h-64 rounded-lg flex flex-col justify-center items-center gap-6">
+          <div
+            class="w-28 h-28 bg-white flex justify-center items-center rounded-full">
+            <img src="assets/dog-cartoon.png" alt="" class="categoryImg" />
+          </div>
+          <div
+            class="categoryDetails flex flex-col items-center justify-center gap-3">
+            <h1 class="categoryTittle font-adlam">Dog</h1>
+            <p class="categoryNitems font-sora">3 items</p>
+          </div>
+        </div>
+        <!-- this is a category card -->
+        <div
+          class="categoryCard primaryCardBg w-44 md:w-52 h-64 rounded-lg flex flex-col justify-center items-center gap-6">
+          <div
+            class="w-28 h-28 bg-white flex justify-center items-center rounded-full">
+            <img src="assets/fish-cartoon.png" alt="" class="categoryImg" />
+          </div>
+          <div
+            class="categoryDetails flex flex-col items-center justify-center gap-3">
+            <h1 class="categoryTittle font-adlam">Fish</h1>
+            <p class="categoryNitems font-sora">3 items</p>
+          </div>
+        </div>
+        <!-- this is a category card -->
+        <div
+          class="categoryCard primaryCardBg w-44 md:w-52 h-64 rounded-lg flex flex-col justify-center items-center gap-6">
+          <div
+            class="w-28 h-28 bg-white flex justify-center items-center rounded-full">
+            <img src="assets/cat-cartoon.png" alt="" class="categoryImg" />
+          </div>
+          <div
+            class="categoryDetails flex flex-col items-center justify-center gap-3">
+            <h1 class="categoryTittle font-adlam">Cat</h1>
+            <p class="categoryNitems font-sora">3 items</p>
+          </div>
+        </div>
+        <!-- this is a category card -->
+        <div
+          class="categoryCard primaryCardBg w-44 md:w-52 h-64 rounded-lg flex flex-col justify-center items-center gap-6">
+          <div
+            class="w-28 h-28 bg-white flex justify-center items-center rounded-full">
+            <img src="assets/bird-cartoon.png" alt="" class="categoryImg" />
+          </div>
+          <div
+            class="categoryDetails flex flex-col items-center justify-center gap-3">
+            <h1 class="categoryTittle font-adlam">Birds</h1>
+            <p class="categoryNitems font-sora">3 items</p>
+          </div>
+        </div>
+        <!-- this is a category card -->
+        <div
+          class="categoryCard primaryCardBg w-44 md:w-52 h-64 rounded-lg flex flex-col justify-center items-center gap-6">
+          <div
+            class="w-28 h-28 bg-white flex justify-center items-center rounded-full">
+            <img src="assets/mouse-cartoon.png" alt="" class="categoryImg" />
+          </div>
+          <div
+            class="categoryDetails flex flex-col items-center justify-center gap-3">
+            <h1 class="categoryTittle font-adlam">Small pet</h1>
+            <p class="categoryNitems font-sora">3 items</p>
+          </div>
+        </div>
+        <!-- this is a category card -->
+        <div
+          class="categoryCard primaryCardBg w-44 md:w-52 h-64 rounded-lg flex flex-col justify-center items-center gap-6">
+          <div
+            class="w-28 h-28 bg-white flex justify-center items-center rounded-full">
+            <img src="assets/rabbit-cartoon.png" alt="" class="categoryImg" />
+          </div>
+          <div
+            class="categoryDetails flex flex-col items-center justify-center gap-3">
+            <h1 class="categoryTittle font-adlam">Rabbit</h1>
+            <p class="categoryNitems font-sora">2 items</p>
+          </div>
+        </div>
       </div>
     </section>
   </body>
