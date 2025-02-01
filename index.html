@@ -386,9 +386,9 @@
     <section
       class="everydayLow w-full lg:w-fit mx-auto flex flex-col gap-12 mt-36">
       <h1 class="text-2xl lg:text-4xl font-adlam">Everyday low Price</h1>
-      <div class="flex gap-6 flex-col md:flex-row">
+      <div class="flex gap-6 flex-col lg:flex-row">
         <div
-          class="w-[90%] mx-auto md:mx-0 lg:w-[47rem] h-[20rem] lg:h-[30rem] flex flex-col gap-4 pt-9 lg:pt-32 pl-9 lg:pl-20 rounded-2xl bg-[url('assets/cute-dog-mid.png'),linear-gradient(to_right_bottom,rgba(248,204,251,1),rgba(172,210,253,1))] bg-no-repeat bg-right-bottom bg-contain">
+          class="w-[90%] mx-auto lg:mx-0 lg:w-[30rem] xl:w-[40rem] h-[20rem] lg:h-[30rem] flex flex-col gap-4 pt-9 lg:pt-32 pl-9 lg:pl-20 rounded-2xl bg-[url('assets/cute-dog-mid.png'),linear-gradient(to_right_bottom,rgba(248,204,251,1),rgba(172,210,253,1))] bg-no-repeat bg-right-bottom bg-contain">
           <p class="hidden lg:block font-sora text-xl">Under Price</p>
           <h1 class="font-adlam text-xl lg:text-3xl">Pet Grooming Mitt</h1>
           <h2 class="hidden lg:block font-adlam text-2xl text-white">
@@ -399,11 +399,70 @@
           </h1>
         </div>
         <div
-          class="w-[90%] mx-auto lg:w-[31rem] h-[20rem] lg:h-[30rem] flex flex-col gap-4 pt-12 pl-11 rounded-2xl bg-[url('assets/cute-pet-mid.png'),linear-gradient(to_right_bottom,rgba(255,249,244,1),rgba(249,223,138,1))] bg-no-repeat bg-right-bottom">
+          class="w-[90%] mx-auto lg:w-[25rem] xl:w-[31rem] h-[20rem] lg:h-[30rem] flex flex-col gap-4 pt-12 pl-11 rounded-2xl bg-[url('assets/cute-pet-mid.png'),linear-gradient(to_right_bottom,rgba(255,249,244,1),rgba(249,223,138,1))] bg-no-repeat bg-right-bottom">
           <h1 class="text-xl lg:text-3xl font-adlam">T-Shirt for Dogs</h1>
           <h1 class="text-4xl lg:text-6xl font-adlam accent">$7.99</h1>
         </div>
       </div>
     </section>
+    <!-- Footer Section Starts Here -->
+    <footer
+      class="bg-[rgba(255,220,38,.5)] w-full h-auto lg:h-[40rem] font-sora flex flex-col justify-center items-center relative mt-96 pb-10">
+      <div
+        class="newsletter w-[90%] lg:max-w-[82rem] h-fit lg:h-[30rem] bg-[#FFF9F4] rounded-2xl flex flex-col lg:flex-row justify-center gap-10 lg:gap-32 absolute top-0 -translate-y-[50%] py-10">
+        <div class="flex justify-center items-center">
+          <img
+            class="w-[11rem] lg:w-[20rem]"
+            src="assets/cute-pet-mid.png"
+            alt="" />
+        </div>
+        <div class="flex flex-col justify-center items-center gap-5">
+          <h1 class="font-adlam text-2xl lg:text-4xl">Get Pawsome News!</h1>
+          <p class="font-sora text-base w-80 md:w-auto lg:text-xl text-center">
+            Exclusive training tips, ticks, product deals and more.
+          </p>
+          <input
+            class="w-[19rem] lg:w-[29rem] h-16 rounded-lg bg-white pl-5"
+            type="email"
+            placeholder="Enter email..." />
+          <div>
+            <button
+              class="btnPrimary font-sora px-8 py-3 accent-background rounded-lg">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="lg:w-[60rem] xl:w-[72rem] mx-auto lg:flex space-y-10 justify-between pl-5 md:pl-0 mt-[25rem] lg:mt-40">
+        <div class="flex flex-col gap-6 max-w-[26rem]">
+          <div class="flex gap-2 items-center">
+            <img class="w-12" src="assets/logo-footer.png" alt="" />
+            <h2 class="text-2xl">Browse4Pets</h2>
+          </div>
+          <p class="text-lg">
+            Discover a world of treats, toys, and essentials handpicked for your
+            furry friends
+          </p>
+        </div>
+        <div>
+          <ul class="flex flex-col xl:gap-8">
+            <li>Find a pet</li>
+            <li>Breeds</li>
+            <li>Contact us</li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col gap-3 justify-end">
+          <p class="text-base">Follow us</p>
+          <div class="flex gap-5 items-center">
+            <img src="./assets/facebook.jpg" alt="social icon" />
+            <img src="./assets/insta.jpg" alt="social icon" />
+            <img src="./assets/linkedin.jpg" alt="social icon" />
+            <img src="./assets/yt.jpg" alt="social icon" />
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
